@@ -1,11 +1,34 @@
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
     <title>Gephex - video jockey software</title>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15">
+    <link rel="icon" href="/favicon.ico" type="image/ico">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
 
   <body>
+    
+    <div class="logoarea">
+            <a href="http://www.gephex.org">
+              <img border="0" src="images/logo.png" alt="Gephex homepage" 
+                   width=369 height=85 />
+            </a>
+    </div>
+
+    <div id="naviarea">
+      <a href="index.php">home</a>
+      <a href="http://wiki.kexbox.org/gephex/doku.php?id=features">features</a>
+      <a href="gallery.php">gallery</a>
+      <a href="download.php">download</a>
+      <a href="http://wiki.kexbox.org/gephex/doku.php?id=support">support</a>
+      <a href="graphs.php">effects</a>
+      <a href="http://wiki.kexbox.org/gephex/doku.php?id=links">links</a>
+      <a href="people.php">people</a>
+  </div>
+
     <h1>What is Gephex?</h1>
 
     <p>Gephex is a modular video jockey software. The base visuals can be 
@@ -18,5 +41,393 @@
     The effect engine is independent from the user 
     interface, which can be de- and attached at runtime. All effects and media 
     streams are extendible by plugins. Gephex is written in C++.</p>
- </body>
+
+    <h1>news:</h1>
+
+    <table width="100%" cellspacing="0" cellpadding="0">  <tr class="headline">
+    <td><div class="date">2007-04-30</div></td>
+    <td><div class="title">Gephex 0.4.4 Released</div></td>
+    <td><div class="author">posted by georg</div></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <div class="story">
+        <div class="para">
+On April 30 2007, the gephex project released a <a href="releases?ver=0.4.4">new version</a> of the stable branch. The most important changes since the 0.4.3:
+        </div>
+        <div class="para">
+<ul>
+  <li>improved GUI (using Qt 4.x)</li>
+  <li>improved Mac OS X support</li>
+  <li>new midi modules</li>
+  <li>frei0r 1.1 support</li>
+</ul>
+
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr class="headline">
+    <td><div class="date">2005-06-04</div></td>
+    <td><div class="title">Gephex 0.4.3 Released</div></td>
+    <td><div class="author">posted by martin</div></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <div class="story">
+        <div class="para">
+On June 6th 2005, the gephex project released a <a href="releases?ver=0.4.3">new version</a> of the stable branch. The most important changes since the 0.4.2:
+        </div>
+        <div class="para">
+<ul>
+  <li> support for Mac OS X (experimental) </li>
+  <li> initial OSC support (experimental) </li>
+  <li> ports of almost all effecTV effects </li>
+  <li> some usability improvements </li>
+  <li> some documentation improvements </li>
+  <li> fixed bugs #78, #79, #80, #81, #82, #83, #84, #85, #86, #87, #88, #89,
+       #90, #92  #96, #97, #100, #102, #103, #112, #113, #114, #115, #116,
+       #117, #123, #125, #126, #137 </li>
+</ul>
+
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr class="headline">
+    <td><div class="date">2005-06-03</div></td>
+    <td><div class="title">#gephex @ irc.freenode.org</div></td>
+    <td><div class="author">posted by martin</div></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <div class="story">
+        <div class="para">
+There is now a channel #gephex in the freenode irc network. This channel is intended for chatting about all issues related to gephex. 
+        </div>
+        <div class="para">
+
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr class="headline">
+    <td><div class="date">2005-01-26</div></td>
+    <td><div class="title">Gephex 0.4.2 Released</div></td>
+    <td><div class="author">posted by Martin</div></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <div class="story">
+        <div class="para">
+On January 26th 2005, the Gephex Project released
+<a href="releases?ver=0.4.2">a minor feature enhancement release</a>
+of the 0.4 branch.
+        </div>
+        <div class="para">
+
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr class="headline">
+    <td><div class="date">2005-01-04</div></td>
+    <td><div class="title">Frei0r builds for Win32</div></td>
+    <td><div class="author">posted by martin</div></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <div class="story">
+        <div class="para">
+Thanks to Pierre there are prebuild win32 binaries of some frei0r plugins available: brightness, bw0r, contrast0r, delay0r, distort0r, flippo, invert0r, nois0r, onecol0r, saturat0r, scanline0r.
+        </div>
+        <div class="para">
+The plugins are located <a href="http://demos.314r.net/gephex/frei0r/">here</a>.
+        </div>
+        <div class="para">
+
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr class="headline">
+    <td><div class="date">2004-11-14</div></td>
+    <td><div class="title">frei0r</div></td>
+    <td><div class="author">posted by georg</div></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <div class="story">
+        <div class="para">
+frei0r, a minimalistic video effect API, has been
+<a href="http://www.piksel.org/Frei0r/">released</a> recently.
+We are currently porting most of our filters to this new API.
+        </div>
+        <div class="para">
+This might be interesting for people that have thought about
+writing effects for gephex but who were put off by our rather
+complex internal API.
+        </div>
+        <div class="para">
+gephex-0.4.1 does not support frei0r effects, but gephex-0.4.2,
+which will be released soon, will support it (for the impatient:
+it is already in our 
+<a href="http://arch.gephex.org/gephex/2004/gephex/">arch</a> repository).
+
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr class="headline">
+    <td><div class="date">2004-11-09</div></td>
+    <td><div class="title">Interesting open source application</div></td>
+    <td><div class="author">posted by georg</div></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <div class="story">
+        <div class="para">
+We were contacted by one of the authors of 
+<a href="http://drone.ws">drone</a>
+recently. Looks really interesting. They have a similar concept and
+the GUI looks very promising.
+        </div>
+        <div class="para">
+
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr class="headline">
+    <td><div class="date">2004-10-29</div></td>
+    <td><div class="title">Gephex 0.4.1 Released</div></td>
+    <td><div class="author">posted by georg</div></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <div class="story">
+        <div class="para">
+On October 29th 2004, the Gephex Project released
+<a href="releases?ver=0.4.1">a maintainance and bug-fix release</a>
+of the 0.4 branch.
+        </div>
+        <div class="para">
+
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr class="headline">
+    <td><div class="date">2004-10-03</div></td>
+    <td><div class="title">Live performance at the Brasília Music Festival</div></td>
+    <td><div class="author">posted by mascht</div></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <div class="story">
+        <div class="para">
+Gephex was used by VJ#13 and VJ pixel for a big live performance at the <a href="http://www.brasiliamusicfestival.com.br">Brasilia Music Festival</a>. Read more on <a href="http://lists.gephex.org/pipermail/gephex-user/2004-September/000113.html">this</a>. 
+
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr class="headline">
+    <td><div class="date">2004-07-28</div></td>
+    <td><div class="title">new links and features</div></td>
+    <td><div class="author">posted by georg</div></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <div class="story">
+        <div class="para">
+Just updated the <a href="http://www.gephex.org/links.php">links</a> and added a <a href="http://www.gephex.org/features.php">feature page</a>.
+        </div>
+        <div class="para">
+We now link to almost all free vj-related projects I know of. If we missed something cool, please tell us.
+        </div>
+        <div class="para">
+
+
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr class="headline">
+    <td><div class="date">2004-07-14</div></td>
+    <td><div class="title">Gephex examples</div></td>
+    <td><div class="author">posted by georg</div></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <div class="story">
+        <div class="para">
+<a href="http://www.gephex.org/go.php?url=http://demos.314r.net/gephex/">This site</a> has a lot of good examples for Gephex, both elementary and advanced, and some nice videos that go with them.
+        </div>
+        <div class="para">
+The example graphs demonstrate how to use sound to control various effects, how to play videos at different speeds, how to generate sound with Gephex and much more. The graphs are documented in french and in english. Have fun!
+        </div>
+        <div class="para">
+
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr class="headline">
+    <td><div class="date">2004-06-06</div></td>
+    <td><div class="title">Gephex-0.4 released</div></td>
+    <td><div class="author">posted by georg</div></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <div class="story">
+        <div class="para">
+We are proud to announce that Gephex-0.4 has been released today.
+Since the last stable relese (0.0.4), many bugs have been fixed,
+effect-modules have been enhanced, and the usability has been
+improved.
+        </div>
+        <div class="para">
+You can find it on the <a href="http://www.gephex.org/download.php">
+download</a> page or get the sources
+<a href="http://www.gephex.org/download/src/gephex-0.4.tar.bz2">here
+(ca 1.5 MB) </a>, the <a href="http://www.gephex.org/download/debian/pool/main/g/gephex/gephex_0.4-2_i386.deb">debian package (sid, 1.7 MB)</a> here, and the
+<a href="http://www.gephex.org/download/win32/gephex-0.4.rar">win32 binary
+(rar, 2.4 MB)</a> here.
+        </div>
+        <div class="para">
+Here is a list of the most important changes since 0.0.4:
+<ul>
+<li> source distribution now contains win32 build files for 
+     visual studio 6</li>
+<li> updated effecTV ports from effecTV-0.3.8 to effecTV-0.3.9</li>
+<li> updated documentation and converted it from sgml to xml</li>
+<li> <a href="http://www.gephex.org/go.php?url=http://motion.sourceforge.net/vloopback/">vloopback</a> output
+ support on linux </li>
+<li> directshow capture support on windows (for webcams, tv cards, ...) </li>
+<li> directshow video file loader on windows </li>
+<li> improved v4l support (but no v4l2 support yet) </li>
+<li> improved usability of the control editor<br/>
+     (textual description of controls, highlighting of the controlled input)
+</li>
+<li> merged v4l code into capturemodule </li>
+<li> improved configure script (support for different libraries
+     can be turned off now) </li>
+<li> added gephex binary on unix platforms </li>
+<li> optimized gradientnormmodule </li>
+<li> improved pixelizer (block size can now be changed in both
+dimensions) </li>
+<li> bug fixes  (
+<a href="http://bugs.gephex.org/show_bug.cgi?id=3">#3</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=4">#4</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=16">#16</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=17">#17</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=18">#18</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=19">#19</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=20">#20</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=24">#24</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=24">#25</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=25">#26</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=26">#27</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=28">#28</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=29">#29</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=30">#30</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=32">#32</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=33">#33</a>
+<a href="http://bugs.gephex.org/show_bug.cgi?id=34">#34</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=35">#35</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=36">#36</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=37">#37</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=38">#38</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=40">#40</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=41">#41</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=42">#42</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=43">#43</a>
+)</li>
+</ul>
+        </div>
+        <div class="para">
+As always, feedback is very welcome (please use the <a href="http://lists.gephex.org/mailman/listinfo/gephex-devel">gephex-devel</a> mailinglist).
+        </div>
+        <div class="para">
+
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr class="headline">
+    <td><div class="date">2004-02-27</div></td>
+    <td><div class="title">Roadmap</div></td>
+    <td><div class="author">posted by georg</div></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <div class="story">
+        <div class="para">
+It has been some time since this page was updated, so I thought it might
+be good to send out some signs of life.
+        </div>
+        <div class="para">
+Our next release will be 0.4 - that's quite a jump from 0.0.4.
+It seems that some people have been irritated by our, hm,
+ somewhat conservative versioning practice.
+        </div>
+        <div class="para">
+Version 0.4 will contain several small bug fixes, some code cleanup,
+and an improved v4l module.
+        </div>
+        <div class="para">
+After that, we will concentrate on our rewrite, which will start with
+version 0.5. Highlights of gephex-0.5 will be:
+        </div>
+        <div class="para">
+<ul>
+<li> a better plugin architecture (allowing
+to group several effects into one shared library,<br/>
+providing complete compiler independence<br/>
+and better support for plugins written in C++)</li>
+<li> a new GUI (redesigned from scratch and focused on live performances) </li>
+<li> improved stability </li>
+<li> scripting support </li>
+<li> <a href="http://www.freeframe.org/">freeframe</a> plugin support </li>
+</ul>
+        </div>
+        <div class="para">
+You can expect the 0.4 release in the next two months.
+        </div>
+        <div class="para">
+The 0.5 release will take a little longer.
+If you want more information about it, you should check out the
+<a href="http://lists.gephex.org/pipermail/gephex-devel/">mailing-list</a>
+(also available via <a href="http://www.gmane.org">gmane</a>).
+        </div>
+        <div class="para">
+
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr class="headline">
+    <td><div class="date">2004-01-13</div></td>
+    <td><div class="title">New mailing lists</div></td>
+    <td><div class="author">posted by mascht</div></td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <div class="story">
+        <div class="para">
+We created public <a href="http://lists.gephex.org/mailman/listinfo">mailinglists</a> for user and developer discussion.
+        </div>
+        <div class="para">
+
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
+    <p><a href="news.php">old news</a></p>
+	
+    
+
+  </body>
 </html>
