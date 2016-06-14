@@ -1,0 +1,58 @@
+<h1>Gephex 0.0.4 Beta 2 Release Notes</h1>
+
+<p>On November 4th 2003, the Gephex Project released Gephex 0.0.4beta2. This will be the last release before 0.0.4.</p>
+
+<p>Gephex is a modular real-time video effect framework.
+0.0.4beta2 provides lots of bug-fixes and some good new stuff. Our main
+focus since 0.0.4alpha2 was to improve stability and usability.</p>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+
+<!-- news entry start -->
+<tr><td colspan="3">&nbsp;</td></tr><tr bgcolor="#eeeeee">
+
+<td valign="top" align="left">Changes:</td>
+<td align="left">&nbsp;</td>
+<td valign="top" align="right">&nbsp;</td>
+
+</tr><tr><td colspan="3">&nbsp;</td></tr><tr><td colspan="3">
+
+<p>We fixed all severe open bugs and made the network code much more robust.
+This allows to detach the user interface from the engine and to continue
+the running effect.</p>
+
+<p>Another benefit is its improved startup speed. Loading the plug-ins now only
+takes a fraction of the time it did before.</p>
+
+<p>As in every release, we have some new modules, most notably a
+font module that uses the sdl_ttf library and more effecTV ports
+(quarkTV for example).</p>
+
+<p>To stabilize Gephex, we removed some nonfunctional parts,
+such as the sequencer or the playlist. We did a code cleanup and removed
+lots of old stuff.</p>
+
+<p>For more details please see in the <a href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/gephex/GePhex/NEWS?rev=1.13">Changelog</a>.</p>
+</td></tr>
+<!-- news entry stop -->
+
+<!-- news entry start -->
+<tr><td colspan="3">&nbsp;</td></tr><tr bgcolor="#eeeeee">
+
+<td valign="top" align="left">Downloads:</td>
+<td align="left">&nbsp;</td>
+<td valign="top" align="right">&nbsp;</td>
+
+</tr><tr><td colspan="3">&nbsp;</td></tr><tr><td colspan="3">
+
+<p>
+Both source code and binary packages are available.
+
+<ul>
+   <li><a href="http://www.gephex.org/download.php">Source code</a></li>
+   <li><a href="http://www.gephex.org/download.php">Binary packages</a></li>
+</ul>
+</p>
+
+</td></tr>
+</table>

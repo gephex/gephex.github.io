@@ -1,0 +1,12 @@
+2007-04-30
+Gephex 0.4.4 Released
+georg
+
+On April 30 2007, the gephex project released a <a href="releases?ver=0.4.4">new version</a> of the stable branch. The most important changes since the 0.4.3:
+
+<ul>
+  <li>improved GUI (using Qt 4.x)</li>
+  <li>improved Mac OS X support</li>
+  <li>new midi modules</li>
+  <li>frei0r 1.1 support</li>
+</ul>

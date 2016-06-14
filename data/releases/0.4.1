@@ -1,0 +1,101 @@
+<h1>Gephex 0.4.1 Release Notes</h1>
+
+<p>On October 29th 2004, the Gephex Project released Gephex 0.4.1</p>
+
+<p>Gephex is a modular real-time video effect framework.
+0.4.1 is a bugfix and stabilization release of the 0.4 branch.
+It also introduces minor feature enhancements.
+</p>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+
+<tr><td colspan="3">&nbsp;</td></tr><tr bgcolor="#eeeeee">
+
+<td valign="top" align="left">Changes:</td>
+<td align="left">&nbsp;</td>
+<td valign="top" align="right">&nbsp;</td>
+
+</tr><tr><td colspan="3">&nbsp;</td></tr><tr><td colspan="3">
+
+</p>
+
+Here is a list of the most important changes since 0.4:
+<ul>
+  <li>
+    new ffmpeg based driver to load video files on linux and win32 (see also
+    README.win32 and the documentation for updated build instructions on win32)
+  </li>
+  <li>
+    new modules:
+    <ul>
+       <li>displacement module</li>
+       <li>chroma key module</li>
+       <li>noise module</li>
+       <li>yuv4mpeg2 output module (experimental)</li>
+       <li>yuv4mpeg2 input module  (experimental)</li>
+       <li>ffmpeg output module    (experimental)</li>
+    </ul>
+
+  <li>
+    updated modules:
+    <ul>
+      <li>audioadd module   : translated property names to english</li>
+      <li>audioenergy module: now automatically adapts to signal strength</li>
+      <li>image calculon    :
+          fixed bug #50 which could lead to a segfault in certain 
+          conditions</li>
+      <li>image output      : unified xshm and ximage driver, 
+          added Xv support (uses hardware scaling if supported)</li>
+      <li>rotozoom module   : added mirror-mode</li>
+      <li>tunnel module     : fixed cylindrical mapping, removed some artifacts
+        </li>
+    </ul>
+
+  <li>added command line parameter support to engine and gui (now all 
+      parameters in gephex.conf can be overriden on the command line)</li>
+
+  <li>replaced most inline assembler code with external nasm assembler files
+     </li>
+  <li>small doc updates</li>
+  <li>changed config dir to ~/.gephex/0.4 and changed module and type install 
+      dir to <code class=var>$prefix</code>/lib/gephex-0.4/(modules|types)</li>
+
+<li> bug fixes  (
+<a href="http://bugs.gephex.org/show_bug.cgi?id=47">#47</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=49">#49</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=50">#50</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=51">#51</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=52">#52</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=53">#53</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=54">#54</a>,
+<a href="http://bugs.gephex.org/show_bug.cgi?id=57">#57</a>
+<a href="http://bugs.gephex.org/show_bug.cgi?id=59">#59</a>
+<a href="http://bugs.gephex.org/show_bug.cgi?id=61">#61</a>
+<a href="http://bugs.gephex.org/show_bug.cgi?id=62">#62</a>
+<a href="http://bugs.gephex.org/show_bug.cgi?id=66">#66</a>
+)</li>
+</ul>
+<p>
+
+</td></tr>
+
+
+<tr><td colspan="3">&nbsp;</td></tr><tr bgcolor="#eeeeee">
+
+<td valign="top" align="left">Downloads:</td>
+<td align="left">&nbsp;</td>
+<td valign="top" align="right">&nbsp;</td>
+
+</tr><tr><td colspan="3">&nbsp;</td></tr><tr><td colspan="3">
+
+<p>
+Both source code and binary packages are available.
+<ul>
+   <li><a href="http://www.gephex.org/download.php">All downloads</a></li>
+   <li><a href="http://www.gephex.org/download/src/gephex-0.4.1.tar.bz2">Source code</a></li>
+   <li><a href="http://www.gephex.org/download/win32/gephex-0.4.1.rar">Binary package (win32)</a></li>
+</ul>
+</p>
+
+</td></tr>
+</table>

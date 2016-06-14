@@ -1,0 +1,23 @@
+2004-01-21
+Setup of new revision control complete
+georg
+
+Since we removed the CVS repository from sourceforge, we had no
+working solution for anonymous access of the sources.
+
+This has changed now: we converted the CVS repository to
+<a href="http://www.gnu.org/software/gnu-arch/">arch</a> and offer access
+via the following url:
+
+<a href="http://arch.gephex.org/gephex/2004">http://arch.gephex.org/gephex/2004</a>
+
+The name of the archive is <tt>gephex@gephex.org--2004</tt>, the revision is called <tt>gephex--main--0.4</tt>.
+
+We suggest you use <a href="http://www.gnu.org/software/gnu-arch/">tla</a>
+to access this archive. The commands to get the gephex source are:
+
+<tt>tla register-archive http://arch.gephex.org/gephex/2004</tt>
+
+<tt>tla get -A gephex@gephex.org--2004 gephex--main--0.4</tt>
+
+For more details see also this <a href="http://lists.gephex.org/pipermail/gephex-devel/2004-January/000019.html">message</a> in the gephex-devel mailinglist.

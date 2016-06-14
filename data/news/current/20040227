@@ -1,0 +1,35 @@
+2004-02-27
+Roadmap
+georg
+
+It has been some time since this page was updated, so I thought it might
+be good to send out some signs of life.
+
+Our next release will be 0.4 - that's quite a jump from 0.0.4.
+It seems that some people have been irritated by our, hm,
+ somewhat conservative versioning practice.
+
+Version 0.4 will contain several small bug fixes, some code cleanup,
+and an improved v4l module.
+
+After that, we will concentrate on our rewrite, which will start with
+version 0.5. Highlights of gephex-0.5 will be:
+
+<ul>
+<li> a better plugin architecture (allowing
+to group several effects into one shared library,<br/>
+providing complete compiler independence<br/>
+and better support for plugins written in C++)</li>
+<li> a new GUI (redesigned from scratch and focused on live performances) </li>
+<li> improved stability </li>
+<li> scripting support </li>
+<li> <a href="http://www.freeframe.org/">freeframe</a> plugin support </li>
+</ul>
+
+You can expect the 0.4 release in the next two months.
+
+The 0.5 release will take a little longer.
+If you want more information about it, you should check out the
+<a href="http://lists.gephex.org/pipermail/gephex-devel/">mailing-list</a>
+(also available via <a href="http://www.gmane.org">gmane</a>).
+

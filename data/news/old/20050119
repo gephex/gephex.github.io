@@ -1,0 +1,32 @@
+2005-01-19
+Third pre-release for gephex-0.4.2
+georg
+
+The third pre-release for 0.4.2 is ready for download.
+I have built a dist from
+gephex@gephex.org--2004/gephex--release--0.4.2--patch-3
+.
+
+The sources are located
+<a href="http://www.gephex.org/download/src/gephex-0.4.2pre3.tar.bz2">here</a>,
+win32 binary release
+<a href="http://www.gephex.org/download/win32/gephex-0.4.2pre3.rar">here</a>.
+
+Most important changes since the 0.4.2pre2 release:
+
+<ul>
+  <li>
+    fixed centermodule installpath (bug 
+      <a href="http://bugs.gephex.org/show_bug.cgi?id=72">#72</a>)
+  </li>
+  <li>
+   improved frei0r path handling (bug
+    <a href="http://bugs.gephex.org/show_bug.cgi?id=74">#74</a>) according
+   to this 
+   <a href="http://www.bek.no/pipermail/frei0r-devel/2005-January/000001.html">
+    proposal</a>.
+  </li>
+  <li>updated Changelog and NEWS</li>
+</ul>
+
+Looking forward to your bug reports (or success stories)!

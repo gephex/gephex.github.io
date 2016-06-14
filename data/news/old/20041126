@@ -1,0 +1,37 @@
+2004-11-26
+First pre-release for gephex-0.4.2 released
+martin
+
+The first pre-release for 0.4.2 is ready for download.
+I have built a dist from
+gephex@gephex.org--2004/gephex--release--0.4.2--patch-1
+.
+
+The sources are located
+<a href="http://www.gephex.org/download/src/gephex-0.4.2pre1.tar.bz2">here</a>,
+win32 binary release
+<a href="http://www.gephex.org/download/win32/gephex-0.4.2pre1.rar">here</a>.
+
+Most important changes since the 0.4.1 release:
+
+<ul>
+  <li>support for frei0r plugins</li>
+
+  <li>new modules:
+    <ul>	
+      <li>centermodule</li>
+      <li>pongmodule</li>
+    </ul>
+  </li>
+
+  <li>updated modules:
+    <ul>
+      <li>overlay module (new smooth overlay mode thanks to pierre)</li>
+      <li>capture module (v4l2 support)</li>
+      <li>ifs module (speedup and interface cleanup)</li>
+      <li>image output (gl compile fix)</li> 
+    </ul>
+  </li>
+</ul>
+
+Looking forward to your bug reports (or success stories)!

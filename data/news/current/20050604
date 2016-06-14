@@ -1,0 +1,16 @@
+2005-06-04
+Gephex 0.4.3 Released
+martin
+
+On June 6th 2005, the gephex project released a <a href="releases?ver=0.4.3">new version</a> of the stable branch. The most important changes since the 0.4.2:
+
+<ul>
+  <li> support for Mac OS X (experimental) </li>
+  <li> initial OSC support (experimental) </li>
+  <li> ports of almost all effecTV effects </li>
+  <li> some usability improvements </li>
+  <li> some documentation improvements </li>
+  <li> fixed bugs #78, #79, #80, #81, #82, #83, #84, #85, #86, #87, #88, #89,
+       #90, #92  #96, #97, #100, #102, #103, #112, #113, #114, #115, #116,
+       #117, #123, #125, #126, #137 </li>
+</ul>

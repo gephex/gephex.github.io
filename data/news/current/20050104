@@ -1,0 +1,8 @@
+2005-01-04
+Frei0r builds for Win32
+martin
+
+Thanks to Pierre there are prebuild win32 binaries of some frei0r plugins available: brightness, bw0r, contrast0r, delay0r, distort0r, flippo, invert0r, nois0r, onecol0r, saturat0r, scanline0r.
+
+The plugins are located <a href="http://demos.314r.net/gephex/frei0r/">here</a>.
+

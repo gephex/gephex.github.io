@@ -1,0 +1,29 @@
+2005-01-22
+4th pre-release for gephex-0.4.2
+martin
+
+The 4th pre-release for 0.4.2 is ready for download.
+I have built a dist from
+gephex@gephex.org--2004/gephex--release--0.4.2--patch-4
+.
+
+The sources are located
+<a href="http://www.gephex.org/download/src/gephex-0.4.2pre4.tar.bz2">here</a>,
+win32 binary release
+<a href="http://www.gephex.org/download/win32/gephex-0.4.2pre4.rar">here</a>.
+
+Most important changes since the 0.4.2pre3 release:
+
+<ul>
+  <li>
+    Compilation error in filesystem.cpp on win32 (bug 
+      <a href="http://bugs.gephex.org/show_bug.cgi?id=77">#77</a>)
+  </li>
+  <li>
+   ships now with videodev2.h (bug
+    <a href="http://bugs.gephex.org/show_bug.cgi?id=75">#75</a>) 
+  </li>
+  <li>updated Changelog and NEWS</li>
+</ul>
+
+Looking forward to your bug reports (or success stories)!

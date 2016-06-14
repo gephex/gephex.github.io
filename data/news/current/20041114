@@ -1,0 +1,16 @@
+2004-11-14
+frei0r
+georg
+
+frei0r, a minimalistic video effect API, has been
+<a href="http://www.piksel.org/Frei0r/">released</a> recently.
+We are currently porting most of our filters to this new API.
+
+This might be interesting for people that have thought about
+writing effects for gephex but who were put off by our rather
+complex internal API.
+
+gephex-0.4.1 does not support frei0r effects, but gephex-0.4.2,
+which will be released soon, will support it (for the impatient:
+it is already in our 
+<a href="http://arch.gephex.org/gephex/2004/gephex/">arch</a> repository).

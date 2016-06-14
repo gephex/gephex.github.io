@@ -1,0 +1,10 @@
+2004-01-14
+CVS moved from sourceforge
+georg
+
+Today we deactivated our CVS repository at sourceforge.
+Until we have set up cvs access on gephex.org, you can get the latest
+cvs snapshot from the <a href="http://www.gephex.org/download.php">download</a>
+page.
+
+For more details see also this <a href="http://lists.gephex.org/pipermail/gephex-devel/2004-January/000011.html">message</a> in the gephex-devel mailinglist.

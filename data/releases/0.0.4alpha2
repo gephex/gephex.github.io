@@ -1,0 +1,56 @@
+<h1>Gephex 0.0.4 Alpha 2 Release Notes</h1>
+
+<p>On October 9th 2003, the Gephex Project released the second alpha release of Gephex 0.0.4.</p>
+
+<p>Please note that this is a unstable development releases with missing or non-working features.</p>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+
+<!-- news entry start -->
+<tr><td colspan="3">&nbsp;</td></tr><tr bgcolor="#eeeeee">
+
+<td valign="top" align="left">&nbsp;</td>
+<td align="left">Changelog</td>
+<td valign="top" align="right">&nbsp;</td>
+
+</tr><tr><td colspan="3">&nbsp;</td></tr><tr><td colspan="3">
+
+<p>Some important changes are:
+<ul>
+  <li>bmpmodule, avifilemodule, libmpeg3loader, videomodule, directshowmodule are merged into frbinmodule.</li>
+
+  <li>the grapheditor shows icons of the modules now.</li>
+  
+  <li>audio type and some audio modules e.g. beat detection</li>
+</ul>
+</p>
+
+<p>
+<ul>
+
+    <li><a href="http://cvs.sourceforge.net/viewcvs.py/gephex/GePhex/NEWS?view=markup">Changelog</a></li>
+</ul>
+</p>
+</td></tr>
+<!-- news entry stop -->
+
+<!-- news entry start -->
+<tr><td colspan="3">&nbsp;</td></tr><tr bgcolor="#eeeeee">
+
+<td valign="top" align="left">&nbsp;</td>
+<td align="left">Download</td>
+<td valign="top" align="right">&nbsp;</td>
+
+</tr><tr><td colspan="3">&nbsp;</td></tr><tr><td colspan="3">
+
+<p>
+Both source code and binary packages are available.
+
+<ul>
+   <li><a href="http://www.gephex.org/download.php">Source code</a></li>
+   <li><a href="http://www.gephex.org/download.php">Binary packages</a></li>
+</ul>
+</p>
+
+</td></tr>
+</table>

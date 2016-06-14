@@ -1,0 +1,24 @@
+2004-08-24
+problems with libavifile [update]
+georg
+
+The new libavifile package (0.7.38.20030710-1.1) in debian unstable does not
+work with gephex. We don't know the exact reasons yet, see this
+<a href="http://news.gmane.org/find-root.php?group=gmane.comp.video.gephex.devel&amp;article=94"> thread</a> for details.
+
+As a temporary fix, we have added the old libavifile package
+(0.7.38.20030710-1) to our apt-server and have uploaded a new version
+of the gephex package that has a dependency against this package.
+
+Users of unstable will have to install the old version of libavifile
+and tell apt to hold this version. Sorry for the inconvinience.
+
+In Debian Sarge (testing), there is no avifile package included.
+If you install the avifile packages (0.7.38.20030710-sarge1) from
+"deb ftp://ftp.nerim.net/debian-marillat/ testing main", video playback
+with gephex works. 
+
+<a href="http://www.gephex.org/go.php?url=http://ffmpeg.sf.net">ffmpeg</a>
+support for the gephex-0.4 branch is currently being worked on, and it will
+replace libavifile to avoid this strange bug.
+We will release gephex-0.4.1 as soon as it is stable.

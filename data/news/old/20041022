@@ -1,0 +1,28 @@
+2004-10-22
+Third pre-release for gephex-0.4.1 released
+georg
+
+The third pre-release for 0.4.1 is ready for download.
+I have built a dist from
+gephex@gephex.org--2004/gephex--release--0.4.1--base-0
+.
+
+The sources are located <a href="http://www.gephex.org/download/src/gephex-0.4.1pre3.tar.bz2">here</a>.
+
+The <a href="http://www.gephex.org/download/win32/gephex-0.4.1pre3.rar">win32 binary</a> release is not uploaded yet, but will be available sometime today.
+
+Most important changes since the last pre-release:
+<ul>
+ <li> ffmpeg output (only works on linux, on win32 it causes
+      an access violation) </li>
+ <li> yuv4mpeg input </li>
+ <li> noise module, yuv4mpeg output and input are now also available
+      on win32 </li>
+ <li> fixed two bugs in the win32 joystickdriver (not tested yet) </li>
+ <li> support for command-line parameters in engine and gui</li>
+</ul>
+
+Please note that the new yuv4mpeg input and output, and the
+ffmpeg output are still experimental.
+
+Looking forward to your bug reports (or success stories)!
